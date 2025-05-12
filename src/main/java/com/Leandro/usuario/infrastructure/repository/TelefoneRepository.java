@@ -1,8 +1,10 @@
 package com.Leandro.usuario.infrastructure.repository;
 
-import com.aprendendojava.Aprendendo_spring.infrastructure.entity.Telefone;
+import com.Leandro.usuario.infrastructure.entity.Telefone;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+;
 
 @Repository
 public interface TelefoneRepository extends JpaRepository <Telefone, Long> {
